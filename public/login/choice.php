@@ -4,3 +4,5 @@
 <body>
 我是 choice.php
 </body>
+
+</html>
