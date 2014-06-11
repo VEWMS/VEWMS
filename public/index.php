@@ -5,7 +5,7 @@
 
 <script type="text/JavaScript">
 $(document).ready(function() {
-	$( "#myframe" ).load( "welcom.html" );
+	$( "#myframe" ).load( "welcom.php" );
 ////////////////////////
 //VS
 ///////////////////////
