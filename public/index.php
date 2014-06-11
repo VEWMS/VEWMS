@@ -18,7 +18,7 @@ $(document).ready(function() {
 /////////////////////
 //friend
 	$("#friend").click(function(){
-                $( "#myframe" ).load( "test.html" );
+                $( "#myframe" ).load( "link.php" );
         });
 //////////////////////
 
@@ -28,7 +28,7 @@ $(document).ready(function() {
 </head>
 <style type="text/css">
 body {
-    color: purple;
+    color: black;
     background-color: #C991FF }
 
 #title{
