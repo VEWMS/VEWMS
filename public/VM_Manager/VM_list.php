@@ -1,19 +1,5 @@
 <html>
 <head>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-
-<script type="text/JavaScript">
-
-$(document).ready(function() {
-	var bg_color;
-        $('table, tr, td').hover(function(){
-		/////light bar
-	});
-
-});
-
-
-</script>
 
 </head>
 <style type="text/css">
@@ -31,36 +17,42 @@ VM List
 <div>
 Hostname:JupiterTest.cdpa.tw
 </div>
-<table width="500">
+<table width="700">
 <tr>
   <td>機器名稱</td>
   <td>狀態</td> 
   <td>操作</td>
+  <td>細節</td>
 </tr>
 <tr class="VM">
   <td>testVM1</td>
-  <td class="stat">up</td> 
-  <td><button class="btn">shutdown</button></td>
+  <td class="stat">Up</td> 
+  <td><button class="btn"><font color="white">Shutdown</font></button></td>
+  <td><button class="btn"><font color="white">details</font></button></td>
 </tr>
 <tr class="VM">
   <td>testVM2</td>
-  <td class="stat">down</td>
-  <td><button class="btn">start</button></td>
+  <td class="stat">Down</td>
+  <td><button class="btn"><font color="white">Start</font></button></td>
+  <td><button class="btn"><font color="white">details</font></button></td>
 </tr>
 <tr class="VM">
   <td>testVM3</td>
-  <td class="stat">up</td>
-  <td><button class="btn">shutdown</button></td>
+  <td class="stat">Dp</td>
+  <td><button class="btn"><font color="white">Shutdown</font></button></td>
+  <td><button class="btn"><font color="white">details</font></button></td>
 </tr>
 <tr class="VM">
   <td>testVM4</td>
-  <td class="stat">up</td>
-  <td><button class="btn">shutdown</button></td>
+  <td class="stat">Up</td>
+  <td><button class="btn"><font color="white">Shutdown</font></button></td>
+  <td><button class="btn"><font color="white">details</font></button></td>
 </tr>
 <tr class="VM">
-  <td>testVM5</td>
-  <td class="stat">down</td>
-  <td><button class="btn">start</button></td>
+  <td><input value="new_testVM"></td>
+  <td class="stat">None</td>
+  <td><button class="btn" ><font color="white">Create</font></button></td>
+  <td>None</td>
 </tr>
 
 </table>

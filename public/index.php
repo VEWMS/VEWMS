@@ -7,13 +7,19 @@
 $(document).ready(function() {
 	$( "#myframe" ).load( "welcom.php" );
 ////////////////////////
-//VS
+
+	$("#vm_link").click(function(){
+                $( "#myframe" ).load( "VM_Manager/VM_list.php" );
+        });
 ///////////////////////
 	$("#ovs_link").click(function(){
-		$( "#myframe" ).load( "test.html" );
+		$( "#myframe" ).load( "OVS_Manager/OVS_main_page.php" );
 	});
 /////////////////////
 //friend
+	$("#friend").click(function(){
+                $( "#myframe" ).load( "test.html" );
+        });
 //////////////////////
 
 });
@@ -93,7 +99,7 @@ border-radius:10px 0px 0px 10px;
 
 #footer {
 width:100%;
-height:50px;
+height:20px;
 position:absolute;
 bottom:0;
 left:0;
@@ -136,7 +142,6 @@ border-radius:0px 10px 0px 10px
 </div>
 <div id="footer">
 <center>維護人員:White19</center>
-<center>國立中山大學 CDPA 宿舍米蟲</center>
 
 </div>
 </body>
