@@ -4,31 +4,31 @@
    <body>
     <center>
 	
-	請輸入機器名稱 : <input type="text" name="machine_name">
-	請輸入需要的CPU上限 (上限為2) :
-		<select name=”cpu”>
-     		 <opction Value=”1”>1</opction>
-		 <opction Value=”2”>2</opction>
-		 <opction Value=”4”>4</opction>
-    		</select>
+	請輸入機器名稱 : <input type="text" name="machine_name"></br>
+	請輸入需要的CPU上限 :
+		<select name="cpu">
+     		 <option value="1">1</option></br>
+		 <option Value="2">2</option></br>
+		 <option Value="4">4</option></br>
+    		</select></br>
 	請輸入記憶體大小 (M) :
-		<select name=”memory”>
-     		 <opction Value=”128”>128</opction>
-		 <opction Value=”512”>512</opction>
-    		</select>
+		<select name="memory">
+     		 <option Value="128">128</option>
+		 <option Value="512">512</option>
+    		</select></br>
 	請輸入配置硬碟大小 (G) :
-		<select name=”size”>
-     		 <opction Value=”128”>128</opction>
-		 <opction Value=”256”>256</opction>
-    		</select>	
+		<select name="size"></br>
+     		 <option Value=:128">128</option>
+		 <option Value="256">256</option>
+    		</select></br>	
 	請輸入要載入的開機光碟 :
-		<select name=”os”>
-     		 <opction Value=”ubuntu”>Ubuntu 12.04</opction>
-		 <opction Value=”gentoo”>Gentoo-install</opction>
-    		</select>
+		<select name="System"></br>
+     		 <option Value="ubuntu">Ubuntu 12.04</option>
+		 <option Value="gentoo">Gentoo-install</option>
+    		</select></br>
 
 	<input type="submit" name="button" value ="送出">
 
-    <center>
+    </center>
    </body>
 </html>
