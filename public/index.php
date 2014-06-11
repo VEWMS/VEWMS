@@ -35,27 +35,35 @@ color:yellow;
 }
 
 #main_index{
-width:85px;
-height:85px;
+width:120px;
+height:120px;
 position:absolute;
-top:90;
-left:120;
+top:100;
+left:130;
 background-color: rgba(0,0,0,.5);
 }
 #b{
-width:60px;
-height:60px;
+width:100px;
+height:100px;
 position:absolute;
-top:130;
-left:90;
+top:145;
+left:70;
 background-color: rgba(0,0,0,.5);
 }
 #c{
-width:140px;
-height:140px;
+width:165px;
+height:165px;
 position:absolute;
 top:20;
 left:20;
+background-color: rgba(0,0,0,.5);
+}
+#d{
+width:40px;
+height:40px;
+position:absolute;
+top:230;
+left:190;
 background-color: rgba(0,0,0,.5);
 }
 
@@ -108,8 +116,11 @@ border-radius:0px 10px 0px 10px
 </div>
 <div id ="c">
 </div>
+<div id ="d">
+</div>
+
 <div id = "title">
-<font size="5">Virtual Equipment</font></br></br>
+<font size="5">Virtual Equip</font></br></br>
 <font size="5">Webpage</font></br></br>
 <font size="5">Management System</font></br>
 </div>
