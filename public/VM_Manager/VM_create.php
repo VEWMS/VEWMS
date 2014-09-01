@@ -4,7 +4,7 @@
    <body>
     <center>
 	
-	請輸入機器名稱 : <input type="text" name="machine_name"></br>
+	請輸入機器名稱 : <input type="text" name="machine_name" value="testVM5"></br>
 	請輸入需要的CPU上限 :
 		<select name="cpu">
      		 <option value="1">1</option></br>

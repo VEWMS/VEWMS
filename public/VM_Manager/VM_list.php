@@ -49,6 +49,18 @@ Hostname:JupiterTest.cdpa.tw
   <td><button class="btn"><font color="white">details</font></button></td>
 </tr>
 <tr class="VM">
+  <td>testVM5</td>
+  <td class="stat">Down</td>
+  <td><button class="btn"><font color="white">Start</font></button></td>
+  <td><button class="btn"><font color="white">details</font></button></td>
+</tr>
+<tr class="VM">
+  <td>testVM6</td>
+  <td class="stat">Down</td>
+  <td><button class="btn"><font color="white">Start</font></button></td>
+  <td><button class="btn"><font color="white">details</font></button></td>
+</tr>
+<tr class="VM">
   <td><input value="new_testVM"></td>
   <td class="stat">None</td>
   <td><button class="btn" ><font color="white">Create</font></button></td>
